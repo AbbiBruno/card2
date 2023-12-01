@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0px;
+}
+
+.body{
+  width: 100%;
+background-color: rgba(252, 137, 185, 0.719);
+color:rgb(117, 53, 84) ;
+font-family: 'Rajdhani', sans-serif;
+}
+
+.column-container {
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.column-item {
+  margin: 10px;
+  padding: 20px;
+  border: 0;
+  text-align: center;
+  color: rgb(117, 53, 84);
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+}
+
+#gifflower{
+  width: 20%;
+}
+
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Ajusta el tamaño máximo según tus necesidades */
+}
+
+/* Estilo de la imagen */
+.img-audio {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Estilo del reproductor de audio */
+.audio {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  z-index: 1; /* Coloca el reproductor de audio sobre la imagen */
+}
+
+.textAudio{
+  color: rgb(117, 53, 84);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+
+.textConfirm{
+  color: rgb(117, 53, 84);
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
