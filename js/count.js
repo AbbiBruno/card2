@@ -33,13 +33,13 @@ function calculateTimeLeft() {
     countdownElement.innerHTML = `
    
     <div class="column-container">
-      <div class="column-item p-1">${timeLeft.days} Days</div>
+      <div class="column-item p-1">${timeLeft.days} Días</div>
  
-      <div class="column-item p-1">${timeLeft.hours} Hours</div>
+      <div class="column-item p-1">${timeLeft.hours} Horas</div>
     
-      <div class="column-item p-1">${timeLeft.minutes} Minutes</div>
+      <div class="column-item p-1">${timeLeft.minutes} Minutos</div>
 
-      <div class="column-item p-1">${timeLeft.seconds} Seconds</div>
+      <div class="column-item p-1">${timeLeft.seconds} Segundos</div>
      
       </div>
 
