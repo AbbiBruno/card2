@@ -1,5 +1,5 @@
 function calculateTimeLeft() {
-    const targetDate = new Date('2023-12-22T21:30:00');
+    const targetDate = new Date('2024-01-13T21:30:00');
     const now = new Date();
 
     const difference = targetDate - now;
