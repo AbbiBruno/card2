@@ -7,7 +7,7 @@
 
 .body{
   width: 100%;
-background-color: rgba(255, 255, 255, 0.719);
+background-color: rgba(252, 137, 185, 0.719);
 color:rgb(117, 53, 84) ;
 font-family: 'Rajdhani', sans-serif;
 }
@@ -59,25 +59,17 @@ font-family: 'Rajdhani', sans-serif;
 }
 
 .textAudio{
-  color:rgb(153, 64, 42);
+  color: rgb(117, 53, 84);
   font-family: 'Dancing Script', cursive;
   text-align: center;
 }
 
 
-
 .textConfirm{
-  color:rgb(196, 162, 69);
+  color: rgb(117, 53, 84);
   font-family: 'Dancing Script', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
   
-}
-
-
-.textUbi{
-  color:rgb(255, 255, 255);
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
 }
